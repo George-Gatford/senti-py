@@ -12,6 +12,7 @@ print('Loading python standard libraries ..')
 import re
 import json
 import time
+import joblib
 from nltk import word_tokenize
 
 print('Loading scikit learn libraries ..')
@@ -19,7 +20,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.pipeline import Pipeline
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.externals import joblib
 
 print('Loading the project modules ..')
 import marisa_trie
