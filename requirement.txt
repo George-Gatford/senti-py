@@ -3,3 +3,4 @@ nltk
 sklearn
 marisa-trie
 scipy
+joblib
